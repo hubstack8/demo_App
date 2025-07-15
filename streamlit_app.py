@@ -37,7 +37,7 @@ def create_scatter_plot():
     sizes = 100 * np.random.rand(50)
     fig, ax = plt.subplots()
     scatter = ax.scatter(x, y, c=colors, s=sizes, alpha=0.5, cmap='viridis')
-    ax.set_title("Scatter Plot: Random Points")
+    ax.set_title("Scatter Plot1: Random Points")
     fig.colorbar(scatter, ax=ax, label='Color Scale')
     return fig
 
